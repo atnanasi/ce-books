@@ -58,5 +58,6 @@ Books::Application.routes.draw do
 
   match "hello" => "booklist#hello2"
   match "bye" => "booklist#bye2"
+  match "mess" => "booklist#mess"
 
 end

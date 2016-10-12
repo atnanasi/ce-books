@@ -9,4 +9,8 @@ class BooklistController < ApplicationController
         #render :text => "さようなら"
     end
 
+    def mess
+        @msg="hogehogepiyopiyo"
+    end
+
 end

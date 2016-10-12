@@ -2,11 +2,11 @@
 class BooklistController < ApplicationController
 
     def hello2
-        render :text => "こんにちは"
+        #render :text => "こんにちは"
     end
 
     def bye2
-        render :text => "さようなら"
+        #render :text => "さようなら"
     end
 
 end

@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  sales_date: 2016-10-19
+
+two:
+  name: MyString
+  sales_date: 2016-10-19

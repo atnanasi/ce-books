@@ -8,10 +8,17 @@
             現在登録されている本のタイトルは次のとおりです。
         </p>
 
-        <p>
+        <table border=1>
+            <tr>
+                <th>タイトル</th>
+                <th>発売日</th>
+            </tr>
             <% @titles.each do |title| %>
-                [タイトル] <%= title.name %>,[発売日] <% title.sales_date %><br />
+                <tr>
+                    <td><%= title.name %></td>
+                    <td><%= title.sales_date %></td>
+                </tr>
             <% end %>
-        </p>
+        </table>
     </body>
 </html>
